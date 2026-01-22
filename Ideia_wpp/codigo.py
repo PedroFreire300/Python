@@ -17,13 +17,13 @@ y_pesquisa = 207
 pyautogui.click(x_pesquisa, y_pesquisa)
 
 # Buscar contato
-pyautogui.write("Yolanda")
+pyautogui.write("Welton")
 pyautogui.press("enter")
 
 time.sleep(2)
 
 # Enviar mensagem
-pyautogui.write("Vai corinthians")
+pyautogui.write("ALISTAMENTO OBRIGATORIO")
 pyautogui.press("enter")
 
 print("Mensagem enviada com sucesso")
