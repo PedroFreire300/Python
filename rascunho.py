@@ -1,6 +1,6 @@
 meta = 50000
 
-qtd_vendida = float(input("Qual foi a quantidade vendida?"))
+qtd_vendida = float(input("Qual foi a quantidade vendida? "))
 
 if qtd_vendida > meta:
     print("A meta de vendas foi ultrapassada")
