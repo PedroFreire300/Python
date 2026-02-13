@@ -1,8 +1,5 @@
-meta = 50000
+cpf = input("Insira seu CPF: ")
 
-qtd_vendida = float(input("Qual foi a quantidade vendida? "))
+teste_01 = cpf.isnumeric()
 
-if qtd_vendida > meta:
-    print("A meta de vendas foi ultrapassada")
-else:
-    print("A meta de vendas NÃO foi ultrapassada")
+print(f"Pedro {teste_01}")
