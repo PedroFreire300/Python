@@ -1,5 +1,5 @@
-cpf = input("Insira seu CPF: ")
+texto = "python"
 
-teste_01 = cpf.isnumeric()
+posicao = texto.find("l")
+print(posicao)
 
-print(f"Pedro {teste_01}")
