@@ -1,0 +1,13 @@
+STRINGS
+   
+   variavel.find("valor que precisa encontrar") -> Procura um texto ou caracter dentro de outro texto resultando na posição encontrada.
+   len(variavel) -> Quantidade de caracteres
+   variavel.replace("localizar","substituir") -> Localiza e substutitui.
+   variavel.isnumeric() -> Verifica se contem apenas numeros.
+
+LISTAS
+
+   variavel.sort -> vendas = [150, 300, 190, 480] vendas.sort(reverse=True) Resultado:Vendas = [480, 300, 190, 150]
+   caracter.join(lista) -> Arruma o print da lista
+   list.append(valor) -> Adiciona um valor ao final de uma lista
+   list.count(valor) -> Retorna a quantidade de vezes que o valor aparece na lista
