@@ -1,5 +1,5 @@
-texto = "python"
+familia = ["Pedro", "Matheus", "Yolanda", "Welton", "Sandra"]
+print((familia))
 
-posicao = texto.find("l")
-print(posicao)
-
+familia_1 = ",".join(familia)
+print((familia_1))

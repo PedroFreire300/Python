@@ -11,3 +11,7 @@ LISTAS
    caracter.join(lista) -> Arruma o print da lista
    list.append(valor) -> Adiciona um valor ao final de uma lista
    list.count(valor) -> Retorna a quantidade de vezes que o valor aparece na lista
+   max(valor)
+   min(valor)
+   lista.index("valor") -> Descobrir indice
+   list.remove("valoe") -> Remover
