@@ -7,11 +7,30 @@ STRINGS
 
 LISTAS
 
-   variavel.sort -> vendas = [150, 300, 190, 480] vendas.sort(reverse=True) Resultado:Vendas = [480, 300, 190, 150]
+   list.pop() -> Remove pelo indice 
    caracter.join(lista) -> Arruma o print da lista
    list.append(valor) -> Adiciona um valor ao final de uma lista
+   list.insert(indice,valor)
    list.count(valor) -> Retorna a quantidade de vezes que o valor aparece na lista
    max(valor)
    min(valor)
    lista.index("valor") -> Descobrir indice
    list.remove("valoe") -> Remover
+
+FOR 
+
+   range()	índice	quando precisa manipular posição
+   
+   enumerate()	índice + valor	quando precisa dos dois
+      nomes = ["Pedro", "Ana", "Carlos"]
+
+      for i, nome in enumerate(nomes):
+          print(f"Posição {i}: {nome}")
+   
+   zip()	valor + valor	quando quer combinar listas
+
+      nomes = ["Pedro", "Ana", "Carlos"]
+      idades = [25, 30, 22]
+
+      for nome, idade in zip(nomes, idades):
+         print(f"{nome} tem {idade} anos")
