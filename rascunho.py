@@ -1,4 +1,14 @@
-numeros = [10, 20, 30, 40, 50]
+qtd_convidados = int(input("Qual a quantidade convidados?"))
 
-for numero in numeros:
-    print(numero*2)
+lista = []
+
+for i in range(qtd_convidados):
+    nomes = input(f"Nome do convidado {i}: " )
+
+    lista.append(nomes)
+
+print(lista)
+
+
+
+
